@@ -1180,6 +1180,10 @@ namespace REPOrium
                     {
                         enemySpawnerKeys.Add("trudge", esetup);
                     }
+                    if (esetup.name == "Enemy - Hunter")
+                    {
+                        enemySpawnerKeys.Add("huntsman", esetup);
+                    }
                 }
             }
             if (RunManager.instance.levelCurrent == RunManager.instance.levelMainMenu || RunManager.instance.levelCurrent == RunManager.instance.levelLobbyMenu || RunManager.instance.levelCurrent == RunManager.instance.levelLobby || RunManager.instance.levelCurrent == RunManager.instance.levelRecording || RunManager.instance.levelCurrent == RunManager.instance.levelTutorial || RunManager.instance.levelCurrent == RunManager.instance.levelArena || RunManager.instance.levelCurrent == RunManager.instance.levelShop)
