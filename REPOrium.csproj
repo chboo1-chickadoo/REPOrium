@@ -41,7 +41,7 @@
       <HintPath>Libraries\BepInEx.dll</HintPath>
     </Reference>
     <Reference Include="PhotonRealtime">
-      <HintPath>..\REPOTests\Libraries\PhotonRealtime.dll</HintPath>
+      <HintPath>Libraries\PhotonRealtime.dll</HintPath>
     </Reference>
     <Reference Include="PhotonUnityNetworking">
       <HintPath>Libraries\PhotonUnityNetworking.dll</HintPath>
